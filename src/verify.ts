@@ -8,5 +8,5 @@ import { LOCALE } from "./declare"
 
 export const verifyLocale = (locale: string): boolean => {
 
-    return Boolean(LOCALE[locale])
+    return Object.values(LOCALE).includes(locale as any);
 };
