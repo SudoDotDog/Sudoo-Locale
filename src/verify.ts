@@ -4,9 +4,10 @@
  * @description Verify
  */
 
-import { LOCALE } from "./declare"
+import { LOCALE } from "./declare";
 
 export const verifyLocale = (locale: string): boolean => {
 
-    return Object.values(LOCALE).includes(locale as any);
+    return Object.values(LOCALE)
+        .includes(locale as any);
 };
