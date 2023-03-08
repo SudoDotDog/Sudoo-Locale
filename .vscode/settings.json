@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "RMRF",
+        "WMXPY",
+        "clazz",
+        "codecov",
+        "connor",
+        "deserialize",
+        "deserialized",
+        "downlevel",
+        "ifeq",
+        "mocharc",
+        "sudoo",
+        "triforce"
+    ],
+    "eslint.options": {
+        "configFile": "./typescript/.eslintrc.json"
+    }
+}
