@@ -1,0 +1,36 @@
+{
+  "name": "@sudoo/locale",
+  "version": "1.0.0",
+  "description": "Locale Library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-Locale.git"
+  },
+  "keywords": [
+    "Sudoo"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-Locale/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-Locale#readme",
+  "devDependencies": {
+    "@sudoo/triforce": "^3.10.1"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
