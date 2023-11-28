@@ -6,13 +6,20 @@
  */
 
 import { expect } from 'chai';
-import { verifyLocale } from '../../src';
+import { verifyIETFLocale, verifyPOSIXLocale } from '../../src';
 
 describe('Given [Verify] helper methods', (): void => {
 
-    it('should be able to verify locale - happy path', (): void => {
+    it('should be able to verify ietf locale - happy path', (): void => {
 
-        const verifyResult: boolean = verifyLocale('en_US');
+        const verifyResult: boolean = verifyIETFLocale('en-US');
+
+        expect(verifyResult).to.be.true;
+    });
+
+    it('should be able to verify posix locale - sad path', (): void => {
+
+        const verifyResult: boolean = verifyPOSIXLocale('en_US');
 
         expect(verifyResult).to.be.true;
     });
