@@ -1,6 +1,6 @@
 {
   "name": "@sudoo/locale",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Locale Library",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Locale#readme",
   "devDependencies": {
-    "@sudoo/triforce": "^3.10.1"
+    "@sudoo/triforce": "^3.11.0"
   },
   "nyc": {
     "extension": [
